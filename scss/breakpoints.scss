@@ -1,0 +1,17 @@
+.container {
+    @include m-1000 {
+        max-width: 768px;
+    }
+
+    @include m-768 {
+        max-width: 570px;
+    }
+
+    @include m-570 {
+        max-width: 425px;
+    }
+
+    @include m-425 {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,43 @@
+// lato font
+@mixin lato($weight) {
+    font-family: 'Lato';
+    font-weight: $weight;
+}
+
+// Open Sans font
+@mixin open-sans($weight) {
+    font-family: 'Open sans';
+    font-weight: $weight;
+}
+
+// MEDIA SIZE 
+@mixin m-1000{
+    @media(max-width: 1000px){
+        @content;
+    }
+}
+
+@mixin m-768{
+    @media(max-width: 768px){
+        @content;
+    }
+}
+
+@mixin m-570{
+    @media(max-width: 570px){
+        @content;
+    }
+}
+
+@mixin m-425{
+    @media(max-width: 425px){
+        @content;
+    }
+}
+
+
+@mixin media($width){
+    @media(max-width: $width){
+        @content;
+    }
+}
